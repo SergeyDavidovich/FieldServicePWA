@@ -22,5 +22,12 @@
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0-*" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BlazorPWA.MSBuild" Version="1.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 
 </Project>
